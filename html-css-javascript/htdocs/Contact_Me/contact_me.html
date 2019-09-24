@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Me</title>
+	<link rel="stylesheet" type="text/css" href="contact_meStyles.css" media="screen">
+	<script src="contact_meScript.js"></script>
+</head>
+
+<body>
+	<div class="contact_page">
+		<div class="header">
+			<header>
+				<p id="home"><strong>Contact Me</strong></p>
+				<p id="intro_statement">If you wish to contact me, you can reach me with the email address and phone number listed below, or you can use the contact form to directly message my email from here.</p>
+			</header>
+		</div>
+
+		<nav class="navbar">
+			<div class="home">
+				<a href="../Index/index.html" class="navlink">Home</a>
+			</div>
+			<div class="resume">
+				<a href="../Resume/resume.html" class="navlink">Resum&eacute</a>
+			</div>
+			<div class="social_media">
+				<a href="../About_Me/about_me.html" class="navlink">About Me</a>
+			</div>
+			<div class="education">
+				<a href="../Education/education.html" class="navlink">Education</a>
+			</div>
+			<div class="experience">
+				<a href="../Experience/experience.html" class="navlink">Experience</a>
+			</div>
+			<div class="skills">
+				<a href="../Skills/skills.html" class="navlink">Skills</a>
+			</div>
+		</nav>
+
+		<div class="body">
+			<form method="post" action="contact_meSubmit.php" class="contact_form" enctype="text/plain">
+				<div class="name">
+					<label for="firstName">First name:</label><br>
+					<input type="text" id="firstName" name="firstName" placeholder="John" onblur="validateFirstName()"/><br>
+					<p id="errorFirstName" style="display: none">Only use alphabetic characters when typing your name.</p><br>
+
+					<label for="lastName">Last name:</label><br>
+					<input type="text" id="lastName" name="lastName" placeholder="Doe" onblur="validateLastName()"/><br>
+					<p id="errorLastName" style="display: none">Only use alphabetic characters when typing your name.</p><br>
+				</div>
+
+				<div class="info">
+					<label for="email">Email Address:</label><br>
+					<input type="text" id="email" name="email" placeholder="johndoe@email.com" onblur="validateEmail()"/><br>
+					<p id="errorEmail" style="display: none">Please include a valid email address with the correct format.</p><br>
+
+					<label for="company">Company:</label><br>
+					<input type="text" id="company" name="company" placeholder="John's company"/><br>
+				</div>
+
+				<div class="subject">
+					<label for="message">Subject:</label><br>
+					<textarea id="message" name="message" placeholder="Write your message here"></textarea><br>
+				</div>
+
+				<input id="submit" type="submit" value="Submit">
+			</form>
+
+			<div class="contact_info">
+				<p id="personal_email">Email address: ntomes@bgsu.edu</p>
+				<p id="personal_number">Phone number: 440-596-1394</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="copyright">
+				<h2>All images are copyright to their owners.</h2>
+			</div>
+
+			<div class="source_code">
+				<h2><a href="#">Source Code</a></h2>
+			</div>
+
+			<div class="contact_me">
+				<h2><a href="contact_me.html">Contact Me</a></h2>
+			</div>
+		</div>
+	</div>
+</body>

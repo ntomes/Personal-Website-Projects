@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+}
+
+.experience_page {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 1.5em;
+	background-color: lightgray;
+	padding: 8px 8px 8px 8px;
+}
+
+.header {
+	grid-column: 1 / 4;
+	text-align: center;
+	background-color: darkblue;
+	color: ivory;
+	padding: 1em 0 1em 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+#home {
+	margin: 0em 0em 0.25em 0em;
+	font-size: 2.25em;
+	font-family: Helvetica;
+}
+
+#intro_statement {
+	margin: 0 0 0.25em 0;
+	font-family: arial;
+	font-size: 1.75em;
+}
+
+.navbar {
+	display: flex;
+	grid-column: 1 / 4;
+	background-color: mediumseagreen;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 1.5em 0em 1.5em 0em;
+}
+
+.navlink {
+	font-family: sans-serif;
+	text-decoration: none;
+	color: black;
+	font-size: 1.25em;
+	transition: 0.5s;
+	padding: 1.25em 0.5em 1.25em 0.5em;
+}
+
+.navlink:hover {
+	color: blue;
+	text-decoration: underline;
+	background-color: black;
+}
+
+@media screen and (max-width: 750px) {
+	.navbar {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		grid-template-rows: auto auto;
+		grid-row-gap: 3em;
+	}
+
+	.home {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+
+	.resume {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+
+	.about_me {
+		grid-column: 3 / 4;
+		grid-row: 1 / 2;
+	}
+
+	.education {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+
+	.experience {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+
+	.skills {
+		grid-column: 3 / 4;
+		grid-row: 2 / 3;
+	}
+}
+
+.main_menu {
+	grid-column: 1 / 4;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+.eoc, .sandridge, .fedex {
+	width: 460px;
+	background-color: beige;
+	border: solid black 0.25em;
+	transition: 0.5s;
+	margin-bottom: 0.5em;
+}
+
+.eoc:hover, .sandridge:hover, .fedex:hover {
+	background-color: indigo;
+	color: ivory;
+}
+
+.eoc:hover .company {
+	background-color: black;
+}
+
+.sandridge:hover .company {
+	background-color: black;
+}
+
+.fedex:hover .company {
+	background-color: black;
+}
+
+.company {
+	font-size: 2em;
+	background-color: skyblue;
+	padding: 0.25em 0 0.25em 0;
+}
+
+.position {
+	font-size: 1.5em;
+	text-decoration: underline;
+	font-family: Verdana;
+}
+
+.description {
+	font-family: Georgia;
+	padding: 0 0.5em 1.5em 0.5em;
+	border-bottom: black solid 0.25em;
+}
+
+.duties {
+	padding: 0.5em 1em 1em 2.5em;
+	font-family: sans-serif;
+}
+
+li {
+	padding-bottom: 1em;
+	font-size: 1.5em;
+	list-style-type: upper-roman;
+}
+
+.footer {
+	grid-column: 1 / 4;
+	display: flex;
+	flex-direction: row;
+	background-color: darkblue;
+	color: ivory;
+	justify-content: space-between;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+h2 > a {
+	color: ivory;
+
+}
+
+h2 {
+	padding-left: 1em;
+}
+
+.copyright {
+	order: 1;
+	color: ivory
+	padding-left: 1em;
+}
+
+h2 > a:hover {
+	text-decoration: underline;
+}
+
+.source_code {
+	order: 2;
+}
+
+.contact_me {
+	order: 3;
+	padding-right: 1em;
+}
