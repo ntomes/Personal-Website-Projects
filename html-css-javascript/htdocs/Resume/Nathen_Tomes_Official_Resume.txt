@@ -1,7 +1,7 @@
 Nathen S. Tomes
 2055 Napoleon Rd, Bowling Green, OH, 43402
 440 - 596 - 1394
-nathentomes@yahoo.com
+ntomes@bgsu.edu
 _______________________________________________________________
 Professional Summary
 A superior work ethic with an outstanding level of determination that can get the job done the way it is meant to be done. Always willing to learn how to improve professional skills in order to exceed expectations and evolve in the workplace. Never cuts corners or seeks excuses when facing a difficult challenge. Has proven to be a valuable team player that can cooperate with others effectively and maintain efficient results when under pressure.
@@ -9,35 +9,34 @@ Education
 Pursuing a Bachelor of Science degree in Computer Science with Mathematics minor
 Bowling Green State University - Bowling Green, OH                                    Expected to graduate in May of 2020
 Black River Education Center - Medina, OH                                                                     Graduated in May of 2016
-- Graduated with a complete high school diploma.
 - Completed 16 total college credit hours during high school career through Akron University.
 - Achieved honor roll, merit roll, and perfect attendance on multiple accounts throughout high school career.
 Relevant Competencies
-Software and Programming Languages                                                                                                                                                                                                   
-? Github                                                                                                                                                                                                                      
-? Bootstrap                                                                                                                                                         
+Programming Languages and Software
+? Git/Github/Gitlab
+? HTML, CSS, Javascript, Bootstrap
+? Windows, Apache, MySQL, PHP
 ? C and C++
-? HTML and CSS                                                                                                        
-? Javascript                                                                                                         
-? Python                                                                                                
-? WAMP
-Transferable Skills                                                                                                       
+? Python
+? Java
+? Linux
+Transferable Skills
 ? Teamwork
 ? Time Management
-? Leadership 
+? Leadership
 ? Problem Solving
-? Improvising
+? Constructive Criticism
 ? Multi Tasking
-? Organization                                  
+? Organization
 Experience
-FedEx Ground - Perrysburg, OH						          September 2018 - Current
+FedEx Ground - Perrysburg, OH                                                                                       September 2018 - Current
 Package Handler
 Works alone or with others in a truck trailer and properly loads trailer with packages. Moves as quick as possible to maximize package handling efficiency and utilize as much space as possible. I am currently capable of:
 ? Effectively switching between working alone and as a team throughout the work shift.
 ? Completing side tasks while ultimately handling main task at the same time.
-Sandridge Food Corporation - Medina, OH                                                    May 2017 - August 2018 (Seasonal)
+Sandridge Food Corporation - Medina, OH                                                    May 2017 - August 2017 (Seasonal)
 Production Line Operator
-Worked alongside a team of operators who were responsible for properly packing, transporting, and recording all food products produced on our assigned line. By the end of both Summers I was entirely capable of:
+Worked alongside a team of operators who were responsible for properly packing, transporting, and recording all food products produced on our assigned line. By the end of the Summer I was entirely capable of:
 ? Managing a small team of operators and assigning positions on the line.
 ? Filling out all official company paperwork involving line activity and production.
 ? Allocating company resources efficiently for production schedules ahead of time. 
